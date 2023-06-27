@@ -10,8 +10,8 @@ edition = "2021"
 anyhow = { version = "1.0.40", default-features = false }
 itertools = { version = "0.10.0", default-features = false }
 num = { version = "0.4", default-features = false }
-plonky2 = { git = "https://github.com/mir-protocol/plonky2", rev = "39d2237dee8b8d7c9049857f8ef54799d6c2cdda" }
+plonky2 = { git = "https://github.com/mir-protocol/plonky2", rev = "3de92d9ed1721cec133e4e1e1b3ec7facb756ccf" }
 
 [dev-dependencies]
-plonky2 = { git = "https://github.com/mir-protocol/plonky2", rev = "39d2237dee8b8d7c9049857f8ef54799d6c2cdda", default-features = false, features = ["gate_testing"] }
+plonky2 = { git = "https://github.com/mir-protocol/plonky2", rev = "3de92d9ed1721cec133e4e1e1b3ec7facb756ccf", default-features = false, features = ["gate_testing"] }
 rand = { version = "0.8.4", default-features = false, features = ["getrandom"] }
